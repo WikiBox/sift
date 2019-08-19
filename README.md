@@ -3,6 +3,21 @@ sift - a file sifter
 
 sift is a utility that allows you to automatically sift source folders for items (files or folders) and selectively move or hard link these items to subfolders in a destination folder.
 
+## Compile sift
+sift comes in just one single cpp-file, sift.cpp. 
+
+Make sure build_essential and bost are installed:
+
+sudo apt install build_essential libboost-all-dev
+
+or (to avoid installing all of boost.)
+
+sudo apt install build_essential libboost-filesystem-dev libboost-system-dev
+
+Then compile sift with this command:
+
+g++ sift.cpp -o sift -lboost-system -lboost-filesystem -O2
+
 ## The source folder
 sift can work with two types of source folders. Flat without any subfolder structure or with a single level subfolder structure.
 

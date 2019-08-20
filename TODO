@@ -1,0 +1,8 @@
+sift is under active development. Here are some things that are considered:
+
+* Multithreading. Prepared by having all data in data structures that should be suitable.
+* Improved wordgroup patterns. Too many false positives now.
+* Add copy?
+* Add move between filesystems?
+* Progressbar.
+* Improve help screen.

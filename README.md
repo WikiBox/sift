@@ -33,7 +33,7 @@ Then compile sift with this command:
 ```
 g++ sift.cpp -o sift -lboost-system -lboost-filesystem -O2
 ```
-Then just place the newly compiled executable file "swift" somewhere in your path.
+Then just place the newly compiled executable file "sift" somewhere in your path.
 
 ## The source folder
 sift can be used with two different types of source folders. Flat without any extra subfolder structure or with a single level extra subfolder structure.
